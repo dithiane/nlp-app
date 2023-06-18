@@ -1,6 +1,10 @@
+@import url(colors.scss);
+
+// Define styles for a form element.
+
 form {
   width: 90%;
-  border: 1px solid #545454;
+  border: 1px solid var(--darkGrey);
   border-radius: 3px;
   padding: 40px;
   @media (max-width: 400px) {
@@ -18,11 +22,11 @@ input {
 }
 
 input[type="submit"] {
-  background-color: #009879;
-  color: #ffffff;
+  background-color: var(--green);
+  color: var(--white);
   border: none;
   cursor: pointer;
   &:hover {
-    background-color: #067e66;
+    background-color: var(--lightGreen);
   }
 }

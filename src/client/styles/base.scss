@@ -1,3 +1,7 @@
+@import url(colors.scss);
+
+// Define global styles for the application.
+
 body {
   display: flex;
   flex-direction: column;
@@ -36,15 +40,15 @@ section {
 .table {
   border-collapse: collapse;
   margin: 25px 0;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px var(--shadow);
   .input {
     width: 300px;
     display: block;
     overflow-x: scroll;
   }
   thead tr {
-    background-color: #009879;
-    color: #ffffff;
+    background-color: var(--green);
+    color: var(--white);
     text-align: left;
   }
   th,
@@ -53,13 +57,13 @@ section {
     white-space: nowrap;
   }
   tbody tr {
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid var(--grey);
   }
   tbody tr:nth-of-type(even) {
-    background-color: #f3f3f3;
+    background-color: var(--rock);
   }
   tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
+    border-bottom: 2px solid var(--green);
   }
 
   @media (max-width: 900px) {
