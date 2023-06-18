@@ -15,8 +15,8 @@ NLPs leverage machine learning and deep learning create a program that can inter
 
 # Screenshot
 
-![Output](https://github.com/dithiane/nlp_app/blob/src/client/media/shot1.png)
-![Output](https://github.com/dithiane/nlp_app/blob/src/client/media/shot2.png)
+![Output](https://github.com/dithiane/nlp_app/blob/main/src/client/media/shot1.png)
+![Output](https://github.com/dithiane/nlp_app/blob/main/src/client/media/shot1.png)
 
 ## Description
 
