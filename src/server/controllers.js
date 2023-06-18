@@ -15,6 +15,7 @@ module.exports = {
             const data = await response.json(); // parse response as JSON
             res.status(200).json(data); // send response data back to client
         } catch (error) {
+            res.status(500).json(error)
             throw error; // re-throw error to be caught by error handler middleware
         }
     }

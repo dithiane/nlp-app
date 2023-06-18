@@ -37,10 +37,10 @@ const loadHistory = (newInput = null) => {
         const [input, score, agreement, subjectivity, confidence, irony] = collector.children
 
         // If the input is a URL, create a link to it, otherwise just set the text content
-        if (item.input?.type === 'url') {
-            input.innerHTML = `<a href="${item.input.value}">${item.input.value}</a>`
+        if (item.text?.type === 'url') {
+            input.innerHTML = `<a href="${item.text.value}">${item.text.value}</a>`
         } else {
-            input.textContent = item.input?.value
+            input.textContent = item.text?.value
         }
 
         // Set the text content of the other cells to the corresponding values in the history item
