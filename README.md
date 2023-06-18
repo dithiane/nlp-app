@@ -1,6 +1,6 @@
 # Evaluate a News Article with Natural Language
 
-This project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. Using an exciting new [MeaningCloud's API](https://www.meaningcloud.com/)the tool can evaluate the content of an article and give insights into its sentiment, subjectivity, and polarity.
+This project is a web tool that allows users to run Natural Language Processing (NLP) on articles or blogs found on other websites. Using an exciting new [MeaningCloud's API](https://www.meaningcloud.com/) the tool can evaluate the content of an article and give insights into its sentiment, subjectivity, and polarity.
 
 NLPs leverage machine learning and deep learning create a program that can interpret natural human speech. Systems like Alexa, Google Assistant, and many voice interaction programs are well known to us, but understanding human speech is an incredibly difficult task and requires a lot of resources to achieve.
 
