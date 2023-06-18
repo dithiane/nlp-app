@@ -4,7 +4,7 @@ This project is a web tool that allows users to run Natural Language Processing 
 
 NLPs leverage machine learning and deep learning create a program that can interpret natural human speech. Systems like Alexa, Google Assistant, and many voice interaction programs are well known to us, but understanding human speech is an incredibly difficult task and requires a lot of resources to achieve.
 
-# Screenshot
+## Screenshot
 
 ![Output](https://github.com/dithiane/nlp_app/blob/main/src/client/media/shot1.png)
 ![Output](https://github.com/dithiane/nlp_app/blob/main/src/client/media/shot1.png)
