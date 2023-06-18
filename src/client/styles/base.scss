@@ -2,24 +2,46 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-size: 14px;
+  font-family: Poppins;
+  a {
+    text-decoration: none;
+  }
 }
 
 main {
   flex: 2;
+  padding: 20px;
 }
 
 section {
-  max-width: 800px;
-  margin: 50px auto;
+  margin: 20px auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
+.results {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  strong {
+    text-align: center;
+  }
+  @media (max-width: 400px) {
+    width: auto;
+  }
+}
 .table {
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 0.9em;
-  font-family: sans-serif;
-  min-width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  .input {
+    width: 300px;
+    display: block;
+    overflow-x: scroll;
+  }
   thead tr {
     background-color: #009879;
     color: #ffffff;
@@ -28,6 +50,7 @@ section {
   th,
   td {
     padding: 12px 15px;
+    white-space: nowrap;
   }
   tbody tr {
     border-bottom: 1px solid #dddddd;
@@ -38,14 +61,17 @@ section {
   tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
   }
-}
 
-.data {
-  max-width: 100px;
-  position: -webkit-sticky;
-  position: sticky;
-  background-color: white;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  @media (max-width: 900px) {
+    font-size: 9px;
+    th,
+    td {
+      padding: 12px 5px;
+      white-space: nowrap;
+    }
+
+    .input {
+      width: 100px;
+    }
+  }
 }

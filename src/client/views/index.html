@@ -15,10 +15,13 @@
 
     <header>
         <div class="logo">
-            Logo
+            Sentiment Analysis API version 2.1
         </div>
-        <div class="navigation">
-            navigation
+        <div>
+            Sentiment Analysis is MeaningCloud's solution for performing a detailed multilingual sentiment analysis of
+            texts from different sources.
+            <a href="https://www.meaningcloud.com/">Learn more</a>
+
         </div>
     </header>
 
@@ -32,8 +35,8 @@
         </section>
 
         <section>
-            <strong>Form Results:</strong>
-            <div id="results">
+            <div class="results">
+                <strong>Evaluation Results:</strong>
                 <table class="table">
                     <thead>
                         <tr>
@@ -45,16 +48,7 @@
                             <th>Irony</th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr>
-                            <td class="input"></td>
-                            <td class="scoreTag"></td>
-                            <td class="agreement"></td>
-                            <td class="subjectivity">/td>
-                            <td class="confidence"></td>
-                            <td class="irony"></td>
-                        </tr>
-
+                    <tbody class="results_data">
                     </tbody>
                 </table>
             </div>
@@ -62,9 +56,17 @@
     </main>
 
     <footer>
-        <p>This is a footer</p>
+        <a href="https://github.com/dithiane" target="_blank">@2023 Dithiane</a>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script>
+        // Check that service workers are supported
+        if ('serviceWorker' in navigator) {
+            // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js');
+            });
+        }
+    </script>
 </body>
 
 </html>

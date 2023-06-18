@@ -1,12 +1,28 @@
 form {
-    border: 1px solid #545454;
-    border-radius: 3px;
-    padding: 40px;
+  width: 90%;
+  border: 1px solid #545454;
+  border-radius: 3px;
+  padding: 40px;
+  @media (max-width: 400px) {
+    width: auto;
+  }
 }
 
 input {
-    padding: 5px 20px;
-    width: 100%;
-    line-height: 16px;
-    margin: 10px 0;
+  font-size: 14px;
+  font-family: Poppins;
+  padding: 10px 20px;
+  width: 100%;
+  line-height: 16px;
+  margin: 10px 0;
+}
+
+input[type="submit"] {
+  background-color: #009879;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #067e66;
+  }
 }
