@@ -31,6 +31,6 @@ To use the application, follow these steps:
 2. Click the "Evaluate" button to run the analysis.
 3. The sentiment analysis results will be displayed on the results page.
 
-## Development
+## Deployment
 
 [Live app](https://nlp-app-z6gr-l9oo1neds-emenatechtonic.vercel.app)
