@@ -17,7 +17,7 @@ const handleSubmit = (e) => {
     if (!input) return
 
     // format input data
-    const receiver = Client.formateData(input)
+    const receiver = Client.formatData(input)
 
     // send POST request to server and get promise
     Client.postData('http://localhost:4000/nlp', receiver)
