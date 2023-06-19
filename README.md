@@ -33,4 +33,4 @@ To use the application, follow these steps:
 
 ## Deployment
 
-[Live app](https://nlp-app-z6gr-l9oo1neds-emenatechtonic.vercel.app)
+[Live app](https://nlp-app-z6gr.vercel.app/)
